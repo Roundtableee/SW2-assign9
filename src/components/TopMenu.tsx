@@ -46,7 +46,7 @@ const TopMenu: React.FC = () => {
           </Link>
           {/* หากยังไม่ล็อกอิน ให้ปุ่ม Sign In นำทางไปที่ URL ที่กำหนด */}
           {!isLoggedIn && (
-            <Link href="http://localhost:3000/api/auth/signin">
+            <Link href="/api/auth/signin">
               <span style={{ fontWeight: 'bold', cursor: 'pointer' }}>
                 Sign In
               </span>

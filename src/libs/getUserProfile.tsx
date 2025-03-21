@@ -13,7 +13,7 @@ export interface UserProfileResponse {
   }
   
   export default async function getUserProfile(token: string): Promise<UserProfileResponse> {
-    const res = await fetch('https://a08-venue-explorer-backend-2.vercel.app/api/v1/auth/me', {
+    const res = await fetch('https://a08-venue-explorer-backend-3.vercel.app/api/v1/auth/me', {
       method: 'GET',
       headers: {
         Authorization: `Bearer ${token}`,
