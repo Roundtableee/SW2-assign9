@@ -1,0 +1,27 @@
+.card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin: 20px;
+}
+
+.cardImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cardContent {
+  padding: 16px;
+}
+
+.cardContent h2 {
+  margin: 0 0 10px;
+}
+
+.cardContent p {
+  margin: 0;
+  color: #555;
+}
